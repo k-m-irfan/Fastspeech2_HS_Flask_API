@@ -109,7 +109,7 @@ def text_synthesis(language, gender, sample_text, vocoder, MAX_WAV_VALUE, device
 def setup_app():
     genders = ['male','female']
     # to make dummy calls in all languages available
-    languages = {'hindi': "नमस्ते",'malayalam': "ഹലോ",'manipuri': "হ্যালো",'marathi': "हॅलो",'kannada': "ಹಲೋ",'bodo': "हॅलो",'english': "Hello",'assamese': "হ্যালো",'tamil': "ஹலோ",'odia': "ହେଲୋ",'rajasthani': "हॅलो",'telugu': "హలో",'bengali': "হ্যালো",'gujarati': "હલો"}
+    languages = {'hindi': "नमस्ते",'malayalam': "ഹലോ",'manipuri': "হ্যালো",'marathi': "हॅलो",'kannada': "ಹಲೋ",'bodo': "हॅलो",'english': "Hello",'assamese': "হ্যালো",'tamil': "ஹலோ",'odia': "ହେଲୋ",'rajasthani': "हॅलो",'telugu': "హలో",'bengali': "হ্যালো",'gujarati': "હલો","punjabi":"ਸਤ ਸ੍ਰੀ ਅਕਾਲ","urdu":"ہیلو"}
     
     vocoders = {}
     for gender in genders:
