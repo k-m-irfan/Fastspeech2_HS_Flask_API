@@ -1,0 +1,3 @@
+source tts-hs-hifigan/bin/activate
+CUDA_VISIBLE_DEVICES="" gunicorn -w 2 -b 0.0.0.0:5000 app:app --timeout 600 --daemon #--certfile ./certificate.pem --keyfile ./key.pem
+# set CUDA_VISIBLE_DEVICES >> "" for cpu, 0 for GPU-0, 1 for GPU-1 ...

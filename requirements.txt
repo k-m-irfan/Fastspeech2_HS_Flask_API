@@ -1,0 +1,10 @@
+flask==2.3.3
+requests==2.31.0
+torch==2.0.1
+espnet==202308
+# torchaudio==2.1.0
+matplotlib==3.7.3
+pandas==2.0.3
+indic-num2words==1.2.0
+indic-unified-parser==1.0.6
+gunicorn==20.1.0
