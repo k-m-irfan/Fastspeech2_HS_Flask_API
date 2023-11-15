@@ -2,6 +2,7 @@
 Model Type: Text to Speech
 Supported Languages: Assamese, Bengali, Bodo, Gujarati, Hindi, Kannada, Malayalam, Manipuri, Marathi, Odia, Punjabi, Rajasthani, Tamil, Telugu, Urdu
 ---
+***Demo: [IITM-TTS Demo](https://iitm-tts.onrender.com) | This may take approximately 30 seconds to load the first time and will go idle after 15 minutes of inactivity.***
 
 # Fastspeech2_HS_Flask_API
 
